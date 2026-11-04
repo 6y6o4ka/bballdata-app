@@ -2,10 +2,10 @@
 // fetched first (waiting at most a few seconds, so a weak gym signal never blocks the app); without a
 // signal, the kept copy opens. Only this site's own files are handled: Google, YouTube and everything
 // else go to the network untouched.
-const BUILD = 'e4d66febcbf9';
+const BUILD = 'a88edbd42572';
 const CACHE = 'bballdata-' + BUILD;
 const FILES = ['index.html', 'connect.html', 'addon.js', 'qrcode.js', 'manifest.webmanifest',
-  'icon-192.png', 'icon-512.png', 'icon-maskable-512.png', 'apple-touch-icon.png'];
+  'club-192.png', 'club-512.png', 'club-maskable-512.png', 'apple-touch-icon.png', 'favicon.svg', 'favicon-32.png'];
 const WAIT_MS = 4000;
 
 const scope = () => new URL(self.registration.scope);
