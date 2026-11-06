@@ -1,0 +1,18 @@
+{
+  "id": "./",
+  "name": "BballData Match Recorder",
+  "short_name": "Recorder",
+  "description": "Record a basketball match from the bench or the stands and send the stats to the coach.",
+  "lang": "en",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#035C03",
+  "icons": [
+    { "src": "rec-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "rec-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "rec-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
